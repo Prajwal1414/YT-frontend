@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+#root{
+    padding: 0 !important;
+}
+
+@theme{
+ --color-secondary-hover: #DBDBDB;
+ --color-secondary-border: #C4C4C4;
+ --color-secondary-text: #AAAAAA;
+ --color-secondary-dark: #444444;
+ --color-secondary-dark-hover: #2B2B2B;
+ --color-secondary: #EEEEEE  ;
+}
+
+.grid-for-pills{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
